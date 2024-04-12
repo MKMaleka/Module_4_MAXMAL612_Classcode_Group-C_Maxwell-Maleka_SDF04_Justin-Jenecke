@@ -1,40 +1,35 @@
 # [SDF04] CSS Magic Buttons
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
 
-## Learning Goals
-
-By completing this project, you will learn to:
+## Learning Outcomes
 
 - Design engaging button animations with CSS.
 - Master the use of CSS transitions and animations for interactive effects.
 
-![alt text](./images/image.png)
+![alt text](./images/buttons.png)
 
-## Project Overview
+## Project Outlines
+ - The design choice was inpired by codespace curated buttons via codepen https://codepen.io/codespace-academy/pen/xxmWrjX.
 
-### Time Estimate: 2 hours
+ - It was a good challenge, I had to learn about CSS transitions and animations to make the buttons to have interactive effects.
+ The CSS: Cascading Style Sheets - MDN Web Docs were insightful and easy to follow as guide to make use of transitions and animations.
 
-## What you Need to Do:
+ - First and foremost I had to familiarise myself with the CSS terms like position, display, box-shadow, margin, keyframes, animations, transform and etc.
 
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
+ # First button:
+ I wanted to an animation with the pulse rate or delay to grab a user's attention. 
+ I came arcoss @keyframes pulse which is a CSS at-rule used to define the behavior of an animation. It is defining a pulse animation, which typically involves a button expanding and contracting in a continuous loop, creating a pulsating effect.
+ 
+ I had to learn about display, margin, and postion since I wanted the three buttons to be horizontal instead of vertical.
+ In this case I used display: inline block to be move it to the beginning of the newline and used margain to place or postion it to be in close proximity with other buttons hortizontal.
 
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_4_StudentNo_Classcode_Group_Name-Surname_SDF04
+# Second button
+I used keyframes rotate to rotate the button continuously in a clockwise direction, completing one full rotation every 30 seconds, with a constant speed throughout.
 
-2. **Write your CSS Styles**: Create your animations from scratch. You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
+# Third button
+I used hover and transform that when the button is hovered over to make a transformation to move the along the horizontal axis by 10 pixels to the right.
+Used bottom to vertically position to move up to be inline with the first button horizontal and text shadow to enable shows effects to be applied to the text
 
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
+# Struggles
+I had to familiarise myself with all the propertries used in the CSS code to be able to declare the right property for my goal which took a bit of time to complete the project but end up having fun making interactive buttons
 
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the SDF04 project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
-
-
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the SDF04 project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
